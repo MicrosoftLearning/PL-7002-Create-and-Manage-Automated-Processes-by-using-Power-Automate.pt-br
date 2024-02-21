@@ -21,7 +21,7 @@ Neste laboratório, você criará um fluxo de botão.
   
 ## Pré-requisitos
 
-- Precisa ter concluído o **Laboratório 2: Modelo de dados**
+- É necessário ter concluído **Laboratório 2: Modelo de dados**
 
 ## Etapas detalhadas
 
@@ -47,7 +47,7 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Selecione a etapa **Disparar um fluxo manualmente**.
 
-1. Selecione **Disparar um fluxo manualmente** e insira `Button clicked`.
+1. Selecione o nome da etapa **Disparar um fluxo manualmente** e insira `Button clicked`.
 
 1. Selecione **Adicionar uma entrada**.
 
@@ -85,11 +85,11 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Use suas credenciais de locatário.
 
-1. Selecione **Adicionar uma nova linha** e insira `New opportunity`.
+1. Selecione o nome da etapa **Adicionar uma nova linha** e insira `New opportunity`.
 
 1. Selecione **Oportunidades** para o **Nome da tabela**
 
-1. Selecione o campo **Cliente** e escolha o ícone de Conteúdo dinâmico.
+1. Selecione o campo **Cliente**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
 
 1. Selecione **Nome do Cliente**.
 
@@ -99,15 +99,11 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Selecione **Mostrar tudo**.
 
-1. Selecione o campo **Endereço** e selecione o ícone de conteúdo dinâmico.
-
-1. Selecione **Endereço completo**.
-
 1. Selecione o campo **Valor** e escolha o ícone de conteúdo dinâmico.
 
 1. Selecione **Venda Potencial**.
 
-1. Selecione o campo **Observações** e escolha o ícone de conteúdo dinâmico.
+1. Selecione o campo **Observações**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
 
 1. Selecione **Comentários**.
 

@@ -119,6 +119,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Formato: **Text**
    1. Obrigatório: **Opcional**
 
+1. Selecione **Salvar**.
+
 ### Tarefa 1.4 – Adicionar coluna de escolha
 
 1. No painel **Colunas e dados de Oportunidade**, selecione **+** e, no painel **Nova coluna**, insira ou selecione os seguintes valores:
