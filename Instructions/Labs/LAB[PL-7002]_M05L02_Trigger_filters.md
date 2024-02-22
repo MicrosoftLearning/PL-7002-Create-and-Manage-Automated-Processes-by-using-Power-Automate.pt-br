@@ -18,7 +18,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 2: Modelo de dados**
+- É necessário ter concluído **Laboratório 2: Modelo de dados**
 
 ## Etapas detalhadas
 
@@ -38,13 +38,15 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione a coluna **Status**.
 
+    ![Captura de tela das colunas de status.](../media/opportunity-status-column.png)
+
 1. Expanda **Opções avançadas**.
 
     ![Captura de tela do nome do esquema de coluna.](../media/column-schema-name.png)
 
 1. Copie o **nome lógico** para uso no fluxo.
 
-   > ** Observação: O prefixo da coluna de status será diferente.
+   > **Observação:** O prefixo da coluna de status pode ser diferente.
 
 ## Exercício 2 – Criar fluxo automatizado
 
@@ -60,7 +62,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Insira `Opportunity Closed` em **Nome do fluxo**.
 
-1. Insira `Dataverse` na pesquisa.
+1. Insira `Dataverse` na pesquisa todos os gatilhos.
 
 1. Selecione **Quando uma linha for adicionada, modificada ou excluída**.
 
@@ -70,7 +72,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione a etapa **Quando uma linha for adicionada, modificada ou excluída**.
 
-1. Selecione **Quando uma linha for adicionada, modificada ou excluída** e insira `Opportunity changed`.
+1. Selecione o **Quando uma linha for adicionada, modificada ou excluída** nome da etapa e insira `Opportunity changed`.
 
 1. Selecione **Modificado** para **Tipo de alteração**.
 
@@ -86,13 +88,13 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Insira `email` na pesquisa.
 
-1. Selecione **Enviar um email (V2)** no **Outlook do Office 365**.
+1. Selecione **Enviar um email (V2)** em **Office 365 Outlook**.
 
-1. Selecione **Enviar um email (V2)** e insira `Notify by email`.
+1. Selecione o nome de etapa **Enviar um email (V2)** e insira `Notify by email`.
 
-1. Selecione o campo **Para** e selecione **Inserir valor personalizado**.
+1. Selecione o campo **Para** e escolha **Inserir valor personalizado**.
 
-1. Insira a sua ID de usuário do locatário em **Para**.
+1. Insira sua ID de usuário do locatário em **Para**.
 
 1. Selecione o campo **Assunto** e insira `Opportunity closed`.
 
@@ -100,19 +102,19 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione **Assunto da oportunidade** em **Oportunidade alterada**.
 
-1. Selecione o campo **Corpo** e selecione o ícone de conteúdo dinâmico.
+1. Selecione o campo **Corpo**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
 
 1. Selecione **Status** em **Oportunidade alterada**.
 
 ### Tarefa 2.4 – Filtro de coluna
 
-1. Selecione a etapa de **Oportunidade alterada**.
+1. Selecione a etapa de gatilho **Oportunidade alterada**.
 
 1. Selecionar **Mostrar tudo**
 
 1. Selecione o campo **Selecionar colunas** e insira `cr977_status`
 
-   > ** Observação: O prefixo da coluna de status será diferente.
+   > **Observação:** O prefixo da coluna de status será diferente.
 
 ### Tarefa 2.5 – Filtro de linha
 
@@ -124,7 +126,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
     ![Captura de tela do filtro de gatilho.](../media/trigger-filter.png)
 
-    > ** Observação: O prefixo da coluna de status será diferente.
+    > **Observação:** O prefixo da coluna de status será diferente.
 
 1. Selecione **Salvar**.
 
