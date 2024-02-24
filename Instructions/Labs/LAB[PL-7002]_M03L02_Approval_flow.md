@@ -21,7 +21,7 @@ Neste laboratório, você criará um fluxo de aprovação.
   
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 3: Sharepoint**
+- Precisa ter concluído o **Laboratório 3: SharePoint**
 
 ## Etapas detalhadas
 
@@ -49,9 +49,9 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione a etapa **Quando um item é criado**.
 
-1. Selecione **Quando um item é criado** e insira `New task`.
+1. Selecione o nome da etapa **Quando um item é criado** e insira `New task`.
 
-1. Selecione o **site do SharePoint do Power Automate**.
+1. Selecione o **Site do SharePoint do Power Automate** criado no laboratório anterior. Se o site não estiver listado, selecione **Inserir valor personalizado** e cole a URL do site do SharePoint do Power Automate
 
 1. Selecione a lista **Tarefas**.
 
@@ -71,7 +71,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Aprovar/Rejeitar – o primeiro a responder** para o **Tipo de aprovação**
 
-1. Selecione **Iniciar e aguardar uma aprovação*** e insira `Approval`.
+1. Selecione o nome da etapa **Iniciar e aguardar uma aprovação** e insira `Approval`.
 
 1. Selecione o campo **Título** e selecione o ícone de conteúdo dinâmico.
 
@@ -97,10 +97,6 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Condição** em **Controle**.
 
-1. Selecione **Salvar**.
-
-1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
-
 1. Selecione o campo no lado esquerdo **Escolher um valor** e selecione o ícone de conteúdo dinâmico.
 
     ![Captura de tela do conteúdo dinâmico para uma condição.](../media/add-condition.png)
@@ -121,7 +117,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Atualizar item** em **SharePoint**.
 
-1. Selecione o **Atualizar item** e insira `Set task to approved`.
+1. Selecione o nome da etapa **Atualizar item** e insira `Set task to approved`.
 
 1. Selecione o **site do SharePoint do Power Automate**.
 
@@ -145,7 +141,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Atualizar item** em **SharePoint**.
 
-1. Selecione **Atualizar item 1** e insira `Set task to declined`.
+1. Selecione o nome da etapa **Atualizar item 1** e insira `Set task to declined`.
 
 1. Selecione o **site do SharePoint do Power Automate**.
 
@@ -161,7 +157,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Título** em **Nova tarefa**.
 
-1. Selecione **Recusar** para o **Valor de status de aprovação**.
+1. Selecione **Recusado** para o **Valor do Status de Aprovação**.
 
 1. Selecione **Salvar**.
 
@@ -177,7 +173,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
    1. Título=`Approval test`
    1. Descrição`Test`
-   1. Nome do proprietário=`MOD Administrator`
+   1. Nome do Proprietário=`MOD Administrator`
    1. Prazo=**Hoje**
    1. Status de aprovação=**Novo**
 
@@ -193,7 +189,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione a data e a hora no histórico de execução do fluxo.
 
-    > ** Observação: A funcionalidade Aprovações será instalada em segundo plano. Isso levará aproximadamente 10 minutos.
+    > **Observação:** A funcionalidade Aprovações será instalada em segundo plano. Isso levará aproximadamente 10 minutos.
 
 1. Selecione a guia **Aprovações** no menu esquerdo.
 
