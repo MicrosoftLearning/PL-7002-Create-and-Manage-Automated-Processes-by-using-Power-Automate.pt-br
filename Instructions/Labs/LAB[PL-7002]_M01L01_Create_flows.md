@@ -22,7 +22,7 @@ Neste laboratório, você criará fluxos de nuvem.
   
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
+- Precisa ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
 
 ## Etapas detalhadas
 
@@ -31,6 +31,8 @@ Neste laboratório, você criará fluxos de nuvem.
 ### Tarefa 1.1 – Selecionar um modelo
 
 1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+
+1. Se aparecer a caixa de diálogo pop-up **Boas-vindas ao Power Automate**, selecione **Introdução**.
 
 1. Selecione o ambiente **Dev One**.
 
@@ -53,6 +55,8 @@ Neste laboratório, você criará fluxos de nuvem.
 1. Selecione **Criar** em **Notificações**.
 
 1. Selecione **Criar Fluxo**.
+
+1. Se aparecer a caixa de diálogo pop-up **Seu fluxo está pronto**, selecione **Não mostrar novamente** e depois **Entendi**.
 
     ![Captura de tela dos detalhes do fluxo.](../media/flow-details.png)
 
@@ -144,6 +148,8 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Testar o fluxo.
 
+1. Selecione **Testar**, depois escolha **Manualmente** e, por fim, **Testar**.
+
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
 
 ## Exercício 3 – Criar um fluxo de nuvem em branco
@@ -160,7 +166,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Insira `Important email` em **Nome do fluxo**.
 
-1. Insira `email` na pesquisa.
+1. Insira `email` na pesquisa todos os gatilhos.
 
 1. Selecione **Quando um novo email chegar (V3)**.
 
