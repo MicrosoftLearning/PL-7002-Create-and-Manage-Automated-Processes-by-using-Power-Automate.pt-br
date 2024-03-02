@@ -23,13 +23,15 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 
 ## Etapas detalhadas
 
-## Exercício 1: Criar uma lista do SharePoint
+## Exercício 1 – Criar uma lista do SharePoint
 
 ### Tarefa 1.1 Criar um site do SharePoint
 
-1. No [portal dos Criadores de Power Apps](https://make.powerapps.com), selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **OneDrive**.
+1. No [portal dos Criadores de Power Apps](https://make.powerapps.com), selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **SharePoint**.
 
-1. No SharePoint, selecione **+Criar site**.
+1. Se a caixa de diálogo pop-up **Bem-vindo à Página Inicial do SharePoint** for exibida, selecione **X** para fechá-la.
+
+1. No SharePoint, selecione **+ Criar site**.
 
 1. Escolha **Site de equipe**, selecione o modelo **Equipe padrão** e escolha **Usar modelo**.
 
@@ -38,6 +40,8 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 1. Selecione **Criar site**.
 
 1. Selecione **Concluir**.
+
+1. Se a caixa de diálogo pop-up **Comece a projetar seu site** for exibida, feche-a.
 
 ### Tarefa 1.2 Criar uma lista do SharePoint
 
