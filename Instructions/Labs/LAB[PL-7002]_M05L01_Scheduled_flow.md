@@ -29,7 +29,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **+ Criar** no menu esquerdo.
 
@@ -47,7 +47,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Escolha a etapa **Recorrência**.
 
-1. Selecione **Disparar um fluxo manualmente** e insira `Daily`.
+1. Selecione o nome da etapa **Recorrência** e insira `Daily`.
 
 ### Tarefa 1.3: Consultar novas tarefas
 
@@ -57,7 +57,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione **Obter itens** em **SharePoint**.
 
-1. Escolha **Obter itens** e insira `New tasks`.
+1. Selecione o nome da etapa **Obter itens** e insira `New tasks`.
 
 1. Selecione o **site do SharePoint do Power Automate**.
 
@@ -81,7 +81,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione o campo **De** e escolha o ícone de Conteúdo dinâmico.
 
-1. Escolha **Corpo/valor** em **Novas tarefas**.
+1. Escolha **corpo/valor** em **Novas tarefas**.
 
 1. Selecione o campo **Inserir chave** e insira `Task`.
 
@@ -97,11 +97,15 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione o campo **Inserir chave** e insira `Due`.
 
-1. Selecione o campo **Inserir valor** e escolha o ícone de Conteúdo dinâmico.
+1. Selecione o campo **Inserir valor**, selecione o ícone de Conteúdo dinâmico e selecione **Ver Mais**.
 
 1. Escolha **Data Limite** em **Novas tarefas**.
 
     ![Captura de tela da ação Selecionar.](../media/select-action.png)
+
+1. Se o designer de fluxos adicionou automaticamente um ou mais loops "Para Cada", arraste a etapa “Seleção” para fora dos loops e remova o(s) loop(s).
+
+    ![Captura de tela das etapas do fluxo sem loops.](../media/flow-without-loops.png)
 
 ### Tarefa 1.5: Criar tabela
 
@@ -111,7 +115,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione **Criar tabela HTML** em **Operações de Dados**.
 
-1. Escolha **Criar tabela HTML** e insira `Format as HTML table`.
+1. Selecione o nome da etapa **Criar tabela HTML** e insira `Format as HTML table`.
 
 1. Selecione o campo **De** e escolha o ícone de Conteúdo dinâmico.
 
@@ -127,7 +131,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione **Enviar um email (V2)** em **Office 365 Outlook**.
 
-1. Selecione **Enviar um email (V2)** e insira `Notify by email`.
+1. Selecione o nome de etapa **Enviar um email (V2)** e insira `Notify by email`.
 
 1. Selecione o campo **Para** e escolha **Inserir valor personalizado**.
 
