@@ -30,7 +30,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
 ### Tarefa 1.1 – Selecionar um modelo
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
 1. Se aparecer a caixa de diálogo pop-up **Boas-vindas ao Power Automate**, selecione **Introdução**.
 
@@ -42,7 +42,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione a guia **Botão**.
 
-1. Insira `location` no campo de pesquisa
+1. No campo **Pesquisar modelos**, insira `location`.
 
     ![Captura de tela dos modelos de fluxo.](../media/flow-templates.png)
 
@@ -56,9 +56,10 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione **Criar Fluxo**.
 
-1. Se aparecer a caixa de diálogo pop-up **Seu fluxo está pronto**, selecione **Não mostrar novamente** e depois **Entendi**.
+1. Se aparecer a caixa de diálogo pop-up **Seu fluxo está pronto**, clique em **Não mostrar novamente** e depois em **Entendi**.
 
     ![Captura de tela dos detalhes do fluxo.](../media/flow-details.png)
+
 
 ### Tarefa 1.2 – Executar o fluxo
 
@@ -74,6 +75,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
     ![Captura de tela do histórico de execuções de fluxo.](../media/run-history.png)
 
+
 ### Tarefa 1.3 – Examinar o fluxo
 
 1. Selecione a data e a hora no histórico de execução do fluxo.
@@ -88,17 +90,18 @@ Neste laboratório, você criará fluxos de nuvem.
 
     ![Captura de tela da saída da etapa de execução de fluxo.](../media/flow-run-step.png)
 
-1. Selecione **Editar**
+1. Selecione **Editar**.
 
 1. Selecione a etapa **Condição** para expandir as etapas de fluxo.
 
-1. Selecione **Expandir condição**
+1. Selecione **Expandir condição**.
 
 1. Selecione uma das etapas em **Enviar uma notificação por push**.
 
 1. Selecione o **Verificador de fluxo**. Não deve haver erros ou avisos.
 
 1. Feche o painel do **Verificador de fluxo**.
+
 
 ### Tarefa 1.4 – Testar o fluxo
 
@@ -110,17 +113,18 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
 
+
 ## Exercício 2 – Criar um fluxo de nuvem com o Copilot
 
 ### Tarefa 2.1 – Inserir um prompt
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`. 
 
 1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **Página Inicial** no menu esquerdo.
 
-1. Em **Vamos automatizar algo. O que ele deve fazer?**, insira `Every day send me an email with the daily summary from MSN Weather`.
+1. Em **Vamos automatizar algo. O que deve ser feito?**, insira `Every day send me an email with the daily summary from MSN Weather`
 
     ![Captura de tela de solicitação do copilot.](../media/copilot-prompt.png)
 
@@ -134,29 +138,29 @@ Neste laboratório, você criará fluxos de nuvem.
 
     ![Captura de tela do fluxo criado pelo Copilot.](../media/copilot-flow.png)
 
+
 ### Tarefa 2.2 – Configurar a etapa de fluxo
 
 1. Selecione a etapa **Obter previsão para hoje**.
 
-    ![Captura de tela dos parâmetros da etapa de fluxo.](../media/flow-step-parameters.png)
-
 1. Insira `Seattle` para **Localização**.
 
-1. Selecione o **X** para limpar **Unidades** e, na lista suspensa, selecione **Imperial**
+1. Clique no **X** para limpar **Unidades** e, na lista suspensa, clique em **Imperial**.
 
-1. Selecione **Salvar**
+    ![Captura de tela dos parâmetros da etapa de fluxo.](../media/flow-step-parameters.png)
 
-1. Testar o fluxo.
+1. Selecione **Salvar**.
 
-1. Selecione **Testar**, depois escolha **Manualmente** e, por fim, **Testar**.
+1. Para testar seu fluxo, clique em **Testar**, na opção **Manualmente** e, depois, em **Testar fluxo**. Selecione **Concluído**.
 
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
+
 
 ## Exercício 3 – Criar um fluxo de nuvem em branco
 
 ### Tarefa 3.1 – Criar o gatilho
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
 1. Certifique-se de que você esteja no ambiente **Dev One**.
 
@@ -166,13 +170,14 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Insira `Important email` em **Nome do fluxo**.
 
-1. Insira `email` na pesquisa todos os gatilhos.
+1. No campo **Pesquisar todos os gatilhos**, insira `email arrives`.
 
 1. Selecione **Quando um novo email chegar (V3)**.
 
     ![Captura de tela da caixa de diálogo Criar um fluxo automatizado.](../media/build-automated-flow.png)
 
 1. Selecione **Criar**.
+
 
 ### Tarefa 3.2 – Configurar o gatilho
 
@@ -187,6 +192,7 @@ Neste laboratório, você criará fluxos de nuvem.
 1. Selecione **Alta** em **Importância**.
 
 1. Selecione **Caixa de entrada** em **Pasta**.
+
 
 ### Tarefa 3.3 – Adicionar uma ação
 
@@ -206,7 +212,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Insira a ID de usuário do locatário em **Destinatário**.
 
-1. Selecione o campo **Texto de notificação** e selecione o ícone de conteúdo dinâmico.
+1. No campo **Texto de notificação**, insira `/` e clique em **Inserir conteúdo dinâmico**.
 
     ![Captura de tela do conteúdo dinâmico.](../media/flow-dynamic-content.png)
 
@@ -220,11 +226,12 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
 
+
 ## Exercício 4 – Monitorar fluxos
 
 ### Tarefa 4.1 – Atividade de fluxo de nuvem
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
 1. Certifique-se de que você esteja no ambiente **Dev One**.
 
@@ -237,3 +244,4 @@ Neste laboratório, você criará fluxos de nuvem.
 1. Selecione a guia **Atividade de fluxo de nuvem** no menu esquerdo.
 
     ![Captura de tela da atividade de fluxo de nuvem.](../media/cloud-flow-activity.png)
+

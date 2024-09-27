@@ -29,11 +29,11 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 ### Tarefa 1.1 – Criar o gatilho
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **+ Criar** no menu esquerdo.
+1. Cliue na guia **+ Criar** no menu de navegação à esquerda.
 
 1. Selecione **Fluxo de nuvem automatizado**.
 
@@ -44,6 +44,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 1. Selecione **Quando um item é criado**.
 
 1. Selecione **Criar**.
+
 
 ### Tarefa 1.2 – Configurar o gatilho
 
@@ -56,6 +57,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 1. Selecione a lista **Tarefas**.
 
     ![Captura de tela do gatilho do SharePoint.](../media/sharepoint-trigger.png)
+
 
 ### Tarefa 1.3 – Adicionar ação de aprovação
 
@@ -71,23 +73,24 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Aprovar/Rejeitar – o primeiro a responder** para o **Tipo de aprovação**
 
-1. Selecione o nome da etapa **Iniciar e aguardar uma aprovação** e insira `Approval`.
+1. Clique no nome da etapa **Iniciar e aguardar uma aprovação** e insira `Approval`
 
-1. Selecione o campo **Título** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **Título** e clique em **Inserir conteúdo dinâmico**.
+
+1. Clique em **Título** em **Nova tarefa**.
 
     ![Captura de tela do conteúdo dinâmico do item do SharePoint.](../media/sharepoint-dynamic-content.png)
 
-1. Selecione **Título**.
-
 1. Insira sua ID de usuário de locatário para **Atribuído a**.
 
-1. Selecione o campo **Detalhes** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **Detalhes** e clique em **Inserir conteúdo dinâmico**.
 
 1. Selecione **Descrição**.
 
-1. Selecione o campo **Link do item**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
+1. Insira `/` no campo **Link do item** e clique em **Inserir conteúdo dinâmico**. 
 
-1. Selecione **Link para o item**.
+1. Clique em **Ver mais** e depois em **Vincular ao item**.
+
 
 ### Tarefa 1.4 – Adicionar condição
 
@@ -97,7 +100,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Condição** em **Controle**.
 
-1. Selecione o campo no lado esquerdo **Escolher um valor** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **Escolher um valor** e clique em **Inserir conteúdo dinâmico**.
 
     ![Captura de tela do conteúdo dinâmico para uma condição.](../media/add-condition.png)
 
@@ -105,9 +108,10 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **é igual a** em **Operador**.
 
-1. Selecione o campo no lado direito **Escolha um valor** e insira `Approve`.
+1. Clique no campo do lado direito **Escolher um valor** e insira `Approve`
 
     ![Captura de tela da condição.](../media/condition.png)
+
 
 ### Tarefa 1.5 – Ações de atualização de status
 
@@ -117,19 +121,19 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Atualizar item** em **SharePoint**.
 
-1. Selecione o nome da etapa **Atualizar item** e insira `Set task to approved`.
+1. Clique no nome da etapa **Atualizar item** e insira `Set task to approved`
 
 1. Selecione o **site do SharePoint do Power Automate**.
 
-1. Selecione a lista **Tarefas**.
+1. Escolha a lista **Tarefas**.
 
-1. Selecione o campo **ID** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **ID** e clique em **Inserir conteúdo dinâmico**.
 
-1. Selecione **ID** em **Nova tarefa**.
+1. Clique em **ID** em **Nova tarefa**.
 
-1. Selecione **Mostrar tudo**.
+1. Selecione **Mostrar tudo** em **Parâmetros avançados**.
 
-1. Selecione o campo **Título** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **Título** e clique em **Inserir conteúdo dinâmico**.
 
 1. Selecione **Título** em **Nova tarefa**.
 
@@ -145,15 +149,15 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione o **site do SharePoint do Power Automate**.
 
-1. Selecione a lista **Tarefas**.
+1. Escolha a lista **Tarefas**.
 
-1. Selecione o campo **ID** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **ID** e clique em **Inserir conteúdo dinâmico**.
 
-1. Selecione **ID** em **Nova tarefa**.
+1. Clique em **ID** em **Nova tarefa**.
 
 1. Selecione **Mostrar tudo**.
 
-1. Selecione o campo **Título** e selecione o ícone de conteúdo dinâmico.
+1. Insira `/` no campo **Título** e clique em **Inserir conteúdo dinâmico**.
 
 1. Selecione **Título** em **Nova tarefa**.
 
@@ -162,6 +166,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 1. Selecione **Salvar**.
 
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
+
 
 ## Exercício 2 – Aprovação de teste
 
@@ -177,21 +182,22 @@ Neste laboratório, você criará um fluxo de aprovação.
    1. Prazo=**Hoje**
    1. Status de aprovação=**Novo**
 
+
 ### Tarefa 2.2 – Aprovação de progresso
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Meus fluxos** no menu esquerdo.
+1. Clique na guia **Meus fluxos** no menu de navegação à esquerda.
 
 1. Selecione **Aprovação da tarefa**.
 
 1. Selecione a data e a hora no histórico de execução do fluxo.
 
-    > **Observação:** A funcionalidade Aprovações será instalada em segundo plano. Isso levará aproximadamente 10 minutos.
+    > **Observação:** a funcionalidade Aprovações será instalada em segundo plano. Isso levará aproximadamente 10 minutos.
 
-1. Selecione a guia **Aprovações** no menu esquerdo.
+1. Clique na guia **Aprovações** no menu de navegação esquerdo.
 
     ![Captura de tela das aprovações no portal.](../media/approvals.png)
 
@@ -199,12 +205,13 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Selecione **Concluído**.
 
-1. Selecione a guia **Meus fluxos** no menu esquerdo.
+1. Clique na guia **Meus fluxos** no menu de navegação à esquerda.
 
 1. Selecione **Aprovação da tarefa**.
 
-1. Selecione a data e a hora no histórico de execução do fluxo.
+1. Escolha a data e a hora no **Histórico de execuções de 28 dias**.
 
 1. Navegue até o site do SharePoint e selecione a lista **Tarefas**.
 
 1. Verifique se o **Status de aprovação** do item de **Teste de aprovação** é **Aprovado**.
+

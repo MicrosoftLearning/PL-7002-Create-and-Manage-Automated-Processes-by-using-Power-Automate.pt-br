@@ -29,9 +29,9 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 ### Tarefa 1.1 – Criar a tabela Oportunidade
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
@@ -39,13 +39,14 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
     ![Captura de tela da criação de uma nova tabela no Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Selecione o ícone de **lápis** ao lado de Nova tabela
+1. Selecione **Editar propriedades da tabela**.
 
     ![Captura de tela do nome da nova tabela.](../media/table-name.png)
 
 1. Para **Nome de exibição**, insira `Opportunity`.
 
 1. Selecione **Salvar**.
+
 
 ### Tarefa 1.2 – Coluna primária
 
@@ -58,6 +59,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 1. Selecione **Atualizar**.
 
 1. Selecione **Criar**.
+
 
 ### Tarefa 1.3 – Adicionar colunas
 
@@ -91,7 +93,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Tipo de dados: **Linha única de texto**
    1. Obrigatório: **Opcional**
 
-1. Expanda **Opções avançadas** e insira `200` para **Contagem máxima de caracteres**.
+1. Expanda **Opções avançadas** e insira `200` em **Contagem máxima de caracteres**.
 
 1. Selecione **Salvar**.
 
@@ -121,12 +123,13 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. Selecione **Salvar**.
 
+
 ### Tarefa 1.4 – Adicionar coluna de escolha
 
 1. No painel **Colunas e dados de Oportunidade**, selecione **+** e, no painel **Nova coluna**, insira ou selecione os seguintes valores:
 
    1. Nome de exibição`Status`
-   1. Tipo de dados: **Escolha**
+   1. Tipo de dados: **Escolha** > **Escolha**
    1. Obrigatório: **Opcional**
 
 1. Selecione **Não** para **Sincronização com escolha global?**
@@ -143,13 +146,14 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. Selecione **Salvar**.
 
+
 ## Exercício 2 – Criar relação
 
 ### Tarefa 2.1 – Criar uma coluna de pesquisa
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
@@ -170,9 +174,9 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 ### Tarefa 3.1 – Adicionar registros de oportunidade
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
@@ -186,8 +190,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Nome do proprietário: `MOD Administrator`
    1. Cliente: `Adventure Works`
    1. Data de fechamento estimada: **Escolher uma data no mês anterior**
-   1. Status: **Fechada**
    1. Valor: `10,000`
+   1. Status: **Fechada**
 
 1. Selecione **Inserir linha abaixo** e insira ou selecione os seguintes valores:
 
@@ -204,8 +208,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Nome do proprietário: `MOD Administrator`
    1. Cliente: `Coho Winery`
    1. Data de fechamento estimada: **Escolher uma data futura no próximo mês**
-   1. Status: **Novo**
    1. Valor: `25,000`
+   1. Status: **Novo**
 
 1. Selecione **Inserir linha abaixo** e insira ou selecione os seguintes valores:
 
@@ -213,9 +217,9 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Nome do proprietário: `MOD Administrator`
    1. Cliente: `Fourth Coffee`
    1. Data de fechamento estimada: **Escolher uma data futura no próximo mês**
-   1. Status: **Aberta**
    1. Valor: `15,000`
+   1. Status: **Aberta**
 
     ![Captura de tela do painel editar dados.](../media/edit-data.png)
 
-1. Feche a guia editar dados.
+1. Feche a guia.
