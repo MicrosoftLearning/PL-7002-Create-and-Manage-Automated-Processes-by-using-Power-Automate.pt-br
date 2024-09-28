@@ -1,5 +1,7 @@
 ---
-lab: título: "Laboratório 7: Módulo de filtros de gatilho: "Módulo 5: Integração profunda do Power Automate entre várias fontes de dados"
+lab:
+  title: 'Laboratório 7: Filtros de gatilho'
+  module: 'Module 5: Power Automate’s deep integration across multiple data sources'
 ---
 
 # Laboratório de prática 7 – Filtros de gatilho
@@ -26,13 +28,13 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 ### Tarefa 1.1 – Nome do esquema de coluna
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
-1. Selecione **Oportunidade**
+1. Selecione **Oportunidade**.
 
 1. Em **Esquema**, selecione **Colunas**.
 
@@ -44,19 +46,20 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
     ![Captura de tela do nome do esquema de coluna.](../media/column-schema-name.png)
 
-1. Copie o **nome lógico** para uso no fluxo.
+1. Copie o **Nome lógico** para uso no fluxo.
 
-   > **Observação:** O prefixo da coluna de status pode ser diferente.
+   > **Observação:** o prefixo da coluna Status pode ser diferente.
+
 
 ## Exercício 2 – Criar fluxo automatizado
 
 ### Tarefa 2.1 – Criar o gatilho
 
-1. Navegue até o portal do Power Automate <https://make.powerautomate.com>.
+1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **+ Criar** no menu esquerdo.
+1. Selecione a guia **+ Criar** no menu de navegação à esquerda.
 
 1. Selecione **Fluxo de nuvem automatizado**.
 
@@ -68,19 +71,21 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione **Criar**.
 
+
 ### Tarefa 2.2 – Configurar o gatilho
 
 1. Selecione a etapa **Quando uma linha for adicionada, modificada ou excluída**.
 
-1. Selecione o **Quando uma linha for adicionada, modificada ou excluída** nome da etapa e insira `Opportunity changed`.
+1. Clique no nome da etapa **Quando uma linha for adicionada, modificada ou excluída** e insira `Opportunity changed`
 
 1. Selecione **Modificado** para **Tipo de alteração**.
 
-1. Selecione **Oportunidades** para o **Nome da tabela**
+1. Escolha **Oportunidades** em **Nome da tabela**.
 
-1. Selecione **Organização** em **Escopo**
+1. Escolha **Organização** em **Escopo**.
 
     ![Captura de tela do gatilho de atualização de linha.](../media/update-trigger.png)
+
 
 ### Tarefa 2.3 – Enviar email
 
@@ -90,13 +95,13 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione **Enviar um email (V2)** em **Office 365 Outlook**.
 
-1. Selecione o nome de etapa **Enviar um email (V2)** e insira `Notify by email`.
+1. Clique no nome de etapa **Enviar um email (V2)** e insira `Notify by email`
 
 1. Selecione o campo **Para** e escolha **Inserir valor personalizado**.
 
 1. Insira sua ID de usuário do locatário em **Para**.
 
-1. Selecione o campo **Assunto** e insira `Opportunity closed`.
+1. Clique no campo **Assunto** e insira `Opportunity closed`
 
 1. Selecione o campo **Corpo** e selecione o ícone de conteúdo dinâmico.
 
@@ -106,15 +111,17 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione **Status** em **Oportunidade alterada**.
 
+
 ### Tarefa 2.4 – Filtro de coluna
 
 1. Selecione a etapa de gatilho **Oportunidade alterada**.
 
 1. Selecionar **Mostrar tudo**
 
-1. Selecione o campo **Selecionar colunas** e insira `cr977_status`
+1. Clique no campo **Selecionar colunas** e insira o **Nome lógico** do exercício anterior, por exemplo: `cr977_status`
 
    > **Observação:** O prefixo da coluna de status será diferente.
+
 
 ### Tarefa 2.5 – Filtro de linha
 
@@ -122,7 +129,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecionar **Mostrar tudo**
 
-1. Selecione o campo **Filtrar linhas** e insira `cr977_status eq 3`
+1. Clique no campo **Filtrar linhas** e insira `cr977_status eq 3` usando o **Nome lógico** do exercício anterior.
 
     ![Captura de tela do filtro de gatilho.](../media/trigger-filter.png)
 
@@ -130,4 +137,5 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione **Salvar**.
 
-1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
+1. Clique no botão **<-****Voltar** no canto superior esquerdo da barra de comandos.
+
