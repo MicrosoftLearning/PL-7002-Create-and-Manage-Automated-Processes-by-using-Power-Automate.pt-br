@@ -4,9 +4,9 @@ lab:
   module: 'Module 0: Course Introduction'
 ---
 
-# Laboratório prático 0 – Validar o ambiente de laboratório
+# Laboratório de Prática 0 – Validar o ambiente de laboratório
 
-> **IMPORTANTE:** Este laboratório fornece a você um locatário do Microsoft 365 e licenças para os aplicativos Power Platform que você utilizará neste curso. Você só receberá um locatário para os laboratórios práticos neste curso. As configurações e ações executadas nesse locatário não são revertidas nem redefinidas, enquanto a máquina virtual fornecida a você é redefinida sempre que você fecha a sessão de laboratório. Por favor, esteja ciente de que o Microsoft 365 e Power Platform estão evoluindo o tempo todo. As instruções neste documento podem divergir do que você vivencia em seu locatário real. Também é possível experimentar um atraso de vários minutos antes que a máquina virtual tenha conectividade de rede para iniciar os laboratórios.
+> **IMPORTANTE:** Este laboratório fornece um locatário do Microsoft 365 e licenças para os aplicativos do Power Platform que você usará neste curso. Você receberá um único locatário para os laboratórios de prática neste curso. As configurações e as ações que você executa dentro desse locatário não podem ser revertidas ou redefinidas, mas a máquina virtual que você recebe é redefinida sempre que você fecha a sessão do laboratório. Lembre-se de que o Microsoft 365 e o Power Platform estão evoluindo o tempo todo. As instruções neste documento podem divergir do que você vivencia em seu locatário real. Também é possível experimentar um atraso de vários minutos antes que a máquina virtual tenha conectividade de rede para iniciar os laboratórios.
 
 ## Locatários do WWL – Termos de uso
 
@@ -22,24 +22,24 @@ Neste exercício, você verificará se pode acessar o Power Apps.
 
 ### Tarefa 1.1 – Entrar no Power Apps
 
-1. Verifique se você tem suas **credenciais do Microsoft 365** do host de laboratório autorizado disponíveis. As credenciais estarão na guia **Recursos**.
+1. Verifique se você tem suas **credenciais do Microsoft 365** do Authorized Lab Host disponíveis. As credenciais estarão na guia **Recursos**.
 
 1. Em uma nova guia do navegador, navegue até `https://powerapps.microsoft.com`
 
 1. Selecione **Entrar**.
 
-1. Digite a `email address` fornecida pelo host de laboratório autorizado.
+1. Insira o `email address` fornecido pelo Authorized Lab Host.
 
 1. Selecione **Avançar**.
 
-1. Digite a `password` fornecida pelo host de laboratório autorizado.
+1. Insira o `password` fornecido pelo Authorized Lab Host.
 
 1. Selecione **Entrar**.
 
-1. Selecione **Sim** para permanecer conectado.
+1. Opcionalmente, selecione **Sim** para permanecer conectado.
 
 1. Se forem solicitadas informações de contato, deixe o País/região como o valor padrão, insira `0123456789` como Número de telefone e selecione **Enviar**.
 
-1. No canto superior direito da tela, verifique se o **Ambiente** está definido como **Dev One**. É nele que você estará trabalhando durante todo este laboratório. Se não estiver definido assim, selecione o ambiente **Dev One**.
+1. No canto superior direito da tela, verifique se o **Ambiente** está definido como **Dev One**. É aqui que você vai trabalhar durante todo este laboratório. Se não estiver, selecione o ambiente **Dev One**.
 
     ![Seletor de ambiente.](../media/select-dev-one-environment.png)

@@ -102,7 +102,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Clique no campo **Inserir chave** e insira `Due`
 
-1. Selecione o campo **Inserir valor**, selecione o ícone de Conteúdo dinâmico e selecione **Ver Mais**.
+1. Selecione o campo **Inserir valor**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
 
 1. Escolha **Data Limite** em **Novas tarefas**.
 

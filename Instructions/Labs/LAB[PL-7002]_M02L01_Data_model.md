@@ -35,30 +35,22 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
-1. Selecione **+ Nova tabela** e selecione **Adicionar colunas e dados**.
+1. Clique em **+ Nova tabela** e escolha **Tabela (propriedades avançadas)**.
 
     ![Captura de tela da criação de uma nova tabela no Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Selecione **Editar propriedades da tabela**.
-
-    ![Captura de tela do nome da nova tabela.](../media/table-name.png)
-
 1. Para **Nome de exibição**, insira `Opportunity`.
-
-1. Selecione **Salvar**.
 
 
 ### Tarefa 1.2 – Coluna primária
 
-1. Selecione o cursor suspenso ao lado de **Nova coluna** e selecione **Editar coluna**.
+1. Selecione a guia **Coluna principal** ao lado da guia **Propriedades**.
 
     ![Captura de tela da coluna primária.](../media/primary-column.png)
 
 1. Para **Nome de exibição**, insira `Opportunity Subject`.
 
-1. Selecione **Atualizar**.
-
-1. Selecione **Criar**.
+1. Selecione **Salvar**.
 
 
 ### Tarefa 1.3 – Adicionar colunas
@@ -86,6 +78,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Obrigatório: **Empresa necessária**
 
 1. Selecione **Salvar**.
+
+1. No painel **Colunas e dados de Oportunidade**, selecione **+** para adicionar uma nova coluna.
 
 1. No painel **Nova coluna**, insira ou selecione os seguintes valores:
 
