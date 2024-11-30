@@ -82,19 +82,11 @@ Neste laboratório, você criará fluxos de nuvem.
 
     ![Captura de tela dos detalhes da execução do fluxo.](../media/flow-run-collapsed.png)
 
-1. Selecione a etapa **Condição** para expandir as etapas de fluxo.
-
-    ![Captura de tela das etapas de execução de fluxo.](../media/flow-run-steps.png)
-
 1. Selecione a etapa **Obter previsão para hoje** com o tique verde.
 
     ![Captura de tela da saída da etapa de execução de fluxo.](../media/flow-run-step.png)
 
 1. Selecione **Editar**.
-
-1. Selecione a etapa **Condição** para expandir as etapas de fluxo.
-
-1. Selecione **Expandir condição**.
 
 1. Selecione uma das etapas em **Enviar uma notificação por push**.
 
@@ -124,7 +116,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione a guia **Página Inicial** no menu esquerdo.
 
-1. Em **Vamos automatizar algo. O que deve ser feito?**, insira `Every day send me an email with the daily summary from MSN Weather`
+1. Em **Criar sua automação com o Copilot**, insira `Every day send me an email with the daily summary from MSN Weather`
 
     ![Captura de tela de solicitação do copilot.](../media/copilot-prompt.png)
 
@@ -151,7 +143,9 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione **Salvar**.
 
-1. Para testar seu fluxo, clique em **Testar**, na opção **Manualmente** e, depois, em **Testar fluxo**. Selecione **Concluído**.
+1. Para testar seu fluxo, clique em **Testar**, na opção **Manualmente** e, depois, em **Testar**. 
+
+1. Selecione **Executar fluxo** e, depois, **Concluído**.
 
 1. Selecione o botão Voltar **<-** no canto superior esquerdo da barra de comandos.
 
@@ -198,6 +192,8 @@ Neste laboratório, você criará fluxos de nuvem.
 
 1. Selecione o ícone **+** na etapa de gatilho e selecione **Adicionar uma ação**.
 
+1. Se solicitado, selecione **Permitir** para **Ver texto e imagens copiados para a área de transferência**.
+
 1. Insira `notification` na pesquisa.
 
     ![Captura de tela da pesquisa de ação.](../media/search-action.png)
@@ -238,6 +234,8 @@ Neste laboratório, você criará fluxos de nuvem.
 1. Selecione **... Mais** do menu esquerdo.
 
     ![Captura de tela de mais opções do portal do Power Automate.](../media/power-automate-menu.png)
+
+1. Selecione **Descobrir tudo** e pesquise **Atividade de fluxo da nuvem** na seção Monitorar.
 
 1. Selecione o ícone de alfinete em **Atividade de fluxo de nuvem**.
 

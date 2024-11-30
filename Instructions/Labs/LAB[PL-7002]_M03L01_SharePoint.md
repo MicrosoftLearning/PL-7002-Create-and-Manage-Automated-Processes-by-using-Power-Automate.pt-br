@@ -109,7 +109,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 
     ![Captura de tela da lista Tarefas do SharePoint.](../media/tasks-sharepoint-list.png)
 
-1. Selecione **+ Novo**, insira os seguintes dados e escolha **Salvar**:
+1. Selecione **+ Adicionar novo item**, insira os seguintes dados e escolha **Salvar**:
 
    1. Título=`Contact Jon`
    1. Descrição=`Call or email`
@@ -117,7 +117,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
    1. Data Limite=**Ontem**
    1. Status de Aprovação=**Recusado**
 
-1. Selecione **+ Novo**, insira os seguintes dados e escolha **Salvar**:
+1. Selecione **+ Adicionar novo item**, insira os seguintes dados e escolha **Salvar**:
 
    1. Título=`Create Quote`
    1. Descrição=`No discount`
@@ -125,7 +125,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
    1. Data Limite=**Hoje**
    1. Status de Aprovação=**Aprovado**
 
-1. Selecione **+ Novo**, insira os seguintes dados e escolha **Salvar**:
+1. Selecione **+ Adicionar novo item**, insira os seguintes dados e escolha **Salvar**:
 
    1. Título=`Visit Jim`
    1. Descrição=`First visit`

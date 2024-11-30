@@ -39,7 +39,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Insira `Task approval` em **Nome do fluxo**.
 
-1. Insira `SharePoint` na pesquisa.
+1. Insira `SharePoint` em Pesquisar todos os gatilhos.
 
 1. Selecione **Quando um item é criado**.
 
@@ -174,7 +174,7 @@ Neste laboratório, você criará um fluxo de aprovação.
 
 1. Navegue até o site do SharePoint e selecione a lista **Tarefas**.
 
-1. Selecione **+ Novo**, insira os seguintes dados e selecione **Salvar**:
+1. Selecione **+ Adicionar novo item**, insira os seguintes dados e escolha **Salvar**:
 
    1. Título=`Approval test`
    1. Descrição`Test`

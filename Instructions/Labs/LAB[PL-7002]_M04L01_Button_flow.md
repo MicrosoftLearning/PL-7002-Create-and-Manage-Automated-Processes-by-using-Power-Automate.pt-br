@@ -70,7 +70,7 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Selecione **Número**
 
-1. Insira `Potential Sale` em **Entrada**.
+1. Insira `Potential Sale` em **Número**.
 
     ![Captura de tela da entrada de usuário.](../media/user-input.png)
 
@@ -95,11 +95,11 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Selecione **Nome do Cliente**.
 
-1. Clique no campo **Assunto da oportunidade** e insira `New opportunity`
-
 1. Clique no campo **Nome do proprietário** e insira `MOD Administrator`
 
 1. Selecione **Mostrar tudo**.
+
+1. Clique no campo **Assunto da oportunidade** e insira `New opportunity`
 
 1. Insira `/` no campo **Quantidade** e clique em **Inserir conteúdo dinâmico**.
 
