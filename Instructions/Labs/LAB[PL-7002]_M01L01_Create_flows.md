@@ -124,7 +124,7 @@ Neste laboratório, você criará fluxos de nuvem.
 
     ![Captura de tela do fluxo sugerido.](../media/copilot-suggestion.png)
 
-1. Selecione **Avançar**.
+1. Selecione **Manter e continuar**.
 
 1. Selecione **Criar fluxo**.
 

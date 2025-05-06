@@ -51,7 +51,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 
     ![Captura de tela da nova lista do SharePoint.](../media/new-sharepoint-list.png)
 
-1. Selecione **Lista em branco**
+1. Selecione **Lista** em **Criar do zero**.
 
 1. Insira `Tasks` em **Nome** e escolha **Criar**.
 
@@ -60,7 +60,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
    1. Nome: `Description`
-   1. Tipo de dados: **Várias linhas de texto**
+   1. Tipo: **Várias linhas de texto**
 
 1. Selecione **Salvar**.
 
@@ -69,7 +69,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
    1. Nome: `Owner Name`
-   1. Tipo de dados: **Linha única de texto**
+   1. Tipo: **Linha única de texto**
 
 1. Selecione **Salvar**.
 
@@ -78,7 +78,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
    1. Nome: `Deadline`
-   1. Tipo de dados: **Data e hora**
+   1. Tipo: **Data e hora**
 
 1. Selecione **Salvar**.
 
@@ -87,7 +87,7 @@ Neste laboratório, você vai criar um site e uma lista do SharePoint.
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
    1. Nome: `Approval Status`
-   1. Tipo de dados: **Escolha**
+   1. Tipo: **Escolha**
    1. Escolha 1=`New`
    1. Escolha 2=`Approved`
    1. Escolha 3=`Declined`
