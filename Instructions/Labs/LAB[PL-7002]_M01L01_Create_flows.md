@@ -9,8 +9,7 @@ lab:
 Neste laboratório, você criará fluxos de nuvem.
 
 ## O que você aprenderá
-
-- Como criar fluxos de nuvem do Power Automate a partir de um modelo e com o CoPilot
+- Como criar fluxos de nuvem do Power Automate a partir de um modelo e com o Copilot
 - Como criar um fluxo de nuvem do Power Automate em branco e adicionar ações
 
 ## Macroetapas do laboratório
