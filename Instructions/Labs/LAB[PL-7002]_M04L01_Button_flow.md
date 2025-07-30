@@ -83,6 +83,8 @@ Neste laboratório, você criará um fluxo de botão.
 
 1. Clique em **Adicionar uma nova linha** em **Microsoft Dataverse**.
 
+1. Insira `Dataverse` para **Nome da conexão**.
+
 1. Selecione **Entrar**
 
 1. Use suas credenciais de locatário.

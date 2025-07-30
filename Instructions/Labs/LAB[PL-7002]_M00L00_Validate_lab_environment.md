@@ -43,3 +43,37 @@ Neste exercício, você verificará se pode acessar o Power Apps.
 1. No canto superior direito da tela, verifique se o **Ambiente** está definido como **Dev One**. É aqui que você vai trabalhar durante todo este laboratório. Se não estiver, selecione o ambiente **Dev One**.
 
     ![Seletor de ambiente.](../media/select-dev-one-environment.png)
+
+### Tarefa 1.2 — Atualizar navegador
+
+A aplicação das atualizações mais recentes ao navegador evita problemas no próximo laboratório ao criar aplicativos.
+
+1. Abra o navegador **Microsoft Edge**.
+
+1. Selecione os **Comandos (...)** no canto superior direito do navegador, selecione **Ajuda e comentários** e selecione **Sobre o Microsoft Edge**.
+
+1. Aplique as atualizações e reinicie o navegador, se necessário.
+
+## Exercício 2 – Microsoft Teams
+
+Neste exercício, você irá verificar se pode acessar uma equipe no Microsoft Teams.
+
+### Tarefa 2.1 – Entrar no Microsoft Teams
+
+1. Verifique se você tem suas **credenciais do Microsoft 365** do Authorized Lab Host disponíveis. As credenciais estarão na guia **Recursos**.
+
+1. Em uma nova guia do navegador, navegue até `https://teams.microsoft.com`
+
+1. Se for exibido o prompt Conheça o Teams, selecione **Introdução** e feche a janela pop-up.
+
+### Tarefa 2.2 – Criar uma equipe
+
+1. Se não houver nenhuma equipe exibida, selecione **Criar equipe** no canto superior direito da página.
+
+1. Insira `Contoso` o campo **Nome da equipe**.
+
+1. Insira `General` o campo **Nome do primeiro canal**.
+
+1. Selecione **Criar**.
+
+1. Selecione **Ignorar**.

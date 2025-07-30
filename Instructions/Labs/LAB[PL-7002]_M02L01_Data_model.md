@@ -178,7 +178,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. No painel **Colunas e dados da oportunidade**, selecione o cursor suspenso ao lado de **Editar** e selecione **Editar na nova guia**.
 
-1. Insira ou selecione os valores a seguir:
+1. Selecione **+ Nova linha** e insira ou selecione os seguintes valores:
 
    1. Assunto da oportunidade: `100 Widgets`
    1. Nome do proprietário: `MOD Administrator`
