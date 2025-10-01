@@ -31,7 +31,7 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **+ Criar** no menu de navegação à esquerda.
 
@@ -45,13 +45,11 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Selecione **Criar**.
 
-
 ### Tarefa 1.2: Configurar o gatilho
 
 1. Escolha a etapa **Recorrência**.
 
 1. Clique no nome da etapa **Recorrência** e insira `Daily`
-
 
 ### Tarefa 1.3: Consultar novas tarefas
 
@@ -67,12 +65,11 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Escolha a lista **Tarefas**.
 
-1. Em **Parâmetros avançados**, escolha **Mostrar tudo**.
+1. Ao lado de **Parâmetros avançados**, selecione **Mostrar tudo**.
 
 1. Escolha o campo **Filtrar Consulta** e insira `ApprovalStatus eq 'New'`
 
     ![Captura de tela da consulta de itens de lista.](../media/list-items.png)
-
 
 ### Tarefa 1.4: Selecionar colunas
 
@@ -80,7 +77,9 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Insira `Select` na pesquisa.
 
-1. Selecione **Integrado** em **Runtime**.
+1. Selecione **Interno**.
+
+    ![Captura de tela pesquisando a ação Selecionar.](../media/add-select-action.png)
 
 1. Escolha **Selecionar** em **Operações de Dados**.
 
@@ -112,12 +111,13 @@ Neste laboratório, você vai criar um fluxo agendado.
 
     ![Captura de tela das etapas do fluxo sem loops.](../media/flow-without-loops.png)
 
-
 ### Tarefa 1.5: Criar tabela
 
 1. Selecione o ícone **+** na etapa Selecionar e escolha **Adicionar uma ação**.
 
 1. Insira `create html` na pesquisa.
+
+1. Selecione **Interno**.
 
 1. Escolha **Criar tabela HTML** em **Operações de dados**.
 
@@ -129,7 +129,6 @@ Neste laboratório, você vai criar um fluxo agendado.
 
     ![Captura de tela da ação Formatar tabela HTML.](../media/format-html-action.png)
 
-
 ### Tarefa 1.6: Enviar email
 
 1. Clique no ícone **+** na etapa **Formatar como tabela HTML** e escolha **Adicionar uma ação**.
@@ -140,9 +139,9 @@ Neste laboratório, você vai criar um fluxo agendado.
 
 1. Clique no nome de etapa **Enviar um email (V2)** e insira `Notify by email`
 
-1. Selecione o campo **Para** e escolha **Inserir valor personalizado**.
+1. Selecione o campo **Para** e insira `MOD Administrator`.
 
-1. Insira sua ID de usuário do locatário em **Para**.
+1. Selecione a ID de usuário do locatário para o campo **Para**.
 
 1. Clique no campo **Assunto** e insira `Daily Tasks`
 
@@ -151,7 +150,6 @@ Neste laboratório, você vai criar um fluxo agendado.
 1. Selecione **Saída** em **Formatar como tabela HTML**.
 
 1. Selecione **Salvar**.
-
 
 ## Exercício 2: Teste de fluxo agendado
 
@@ -170,4 +168,3 @@ Neste laboratório, você vai criar um fluxo agendado.
 1. No portal do Power Automate, selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **Outlook**.
 
     ![Captura de tela da ação Formatar tabela HTML.](../media/daily-tasks-email.png)
-

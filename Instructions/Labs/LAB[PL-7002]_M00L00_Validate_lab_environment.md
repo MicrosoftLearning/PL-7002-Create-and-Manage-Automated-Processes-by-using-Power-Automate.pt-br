@@ -38,7 +38,9 @@ Neste exercício, você verificará se pode acessar o Power Apps.
 
 1. Opcionalmente, selecione **Sim** para permanecer conectado.
 
-1. Se forem solicitadas informações de contato, deixe o País/região como o valor padrão, insira `0123456789` como Número de telefone e selecione **Enviar**.
+1. Opcionalmente, selecione Não, obrigado para não fazer logon no Microsoft Edge.
+
+1. Se solicitado a fornecer informações de contato, deixe o País/região com o valor padrão, insira `0123456789` para o número de telefone e selecione **Enviar**.
 
 1. No canto superior direito da tela, verifique se o **Ambiente** está definido como **Dev One**. É aqui que você vai trabalhar durante todo este laboratório. Se não estiver, selecione o ambiente **Dev One**.
 
@@ -65,6 +67,10 @@ Neste exercício, você irá verificar se pode acessar uma equipe no Microsoft T
 1. Em uma nova guia do navegador, navegue até `https://teams.microsoft.com`
 
 1. Se for exibido o prompt Conheça o Teams, selecione **Introdução** e feche a janela pop-up.
+
+1. Expanda **Equipes e canal**.
+
+1. Selecione **Ver todas as suas equipes**.
 
 ### Tarefa 2.2 – Criar uma equipe
 

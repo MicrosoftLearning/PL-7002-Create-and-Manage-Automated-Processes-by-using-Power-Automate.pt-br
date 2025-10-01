@@ -38,7 +38,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Em **Esquema**, selecione **Colunas**.
 
-1. Selecione a coluna **Status**.
+1. Selecione a coluna **Status da Oportunidade**.
 
     ![Captura de tela das colunas de status.](../media/opportunity-status-column.png)
 
@@ -48,8 +48,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Copie o **Nome lógico** para uso no fluxo.
 
-   > **Observação:** o prefixo da coluna Status pode ser diferente.
-
+   > **Observação:** O prefixo da coluna Status da Oportunidade pode ser diferente.
 
 ## Exercício 2 – Criar fluxo automatizado
 
@@ -57,7 +56,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Navegue até o portal do Power Automate `https://make.powerautomate.com`.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **+ Criar** no menu de navegação à esquerda.
 
@@ -70,7 +69,6 @@ Neste laboratório, você filtrará um gatilho de atualização.
 1. Selecione **Quando uma linha for adicionada, modificada ou excluída**.
 
 1. Selecione **Criar**.
-
 
 ### Tarefa 2.2 – Configurar o gatilho
 
@@ -86,7 +84,6 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
     ![Captura de tela do gatilho de atualização de linha.](../media/update-trigger.png)
 
-
 ### Tarefa 2.3 – Enviar email
 
 1. Selecione o ícone **+** na etapa de gatilho e selecione **Adicionar uma ação**.
@@ -97,7 +94,7 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Clique no nome de etapa **Enviar um email (V2)** e insira `Notify by email`
 
-1. Selecione o campo **Para** e escolha **Inserir valor personalizado**.
+1. Selecione o campo **Para** e insira `MOD Administrator`.
 
 1. Insira sua ID de usuário do locatário em **Para**.
 
@@ -109,25 +106,19 @@ Neste laboratório, você filtrará um gatilho de atualização.
 
 1. Selecione o campo **Corpo**, selecione o ícone de conteúdo dinâmico e selecione **Ver mais**.
 
-1. Selecione **Status** em **Oportunidade alterada**.
-
+1. Selecione **Status da Oportunidade** em **Oportunidade alterada**.
 
 ### Tarefa 2.4 – Filtro de coluna
 
 1. Selecione a etapa de gatilho **Oportunidade alterada**.
 
-1. Selecionar **Mostrar tudo**
-
-1. Clique no campo **Selecionar colunas** e insira o **Nome lógico** do exercício anterior, por exemplo: `cr977_status`
+1. Clique no campo **Selecionar colunas** e insira o **Nome lógico** do exercício anterior, por exemplo: `cr977_opportunitystatus`
 
    > **Observação:** O prefixo da coluna de status será diferente.
-
 
 ### Tarefa 2.5 – Filtro de linha
 
 1. Selecione a etapa de **Oportunidade alterada**.
-
-1. Selecionar **Mostrar tudo**
 
 1. Clique no campo **Filtrar linhas** e insira `cr977_status eq 3` usando o **Nome lógico** do exercício anterior.
 
@@ -138,4 +129,3 @@ Neste laboratório, você filtrará um gatilho de atualização.
 1. Selecione **Salvar**.
 
 1. Clique no botão **<-****Voltar** no canto superior esquerdo da barra de comandos.
-
